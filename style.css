@@ -1,0 +1,16 @@
+body {
+    font-family: Cambria, sans-serif;
+    background-color: #f4f4f4c8;
+    color: #2a2727;
+    margin: 0;
+    padding: 20px;
+  }
+
+  p {
+    background-color: #fff;
+    border: 1px solid #d2cccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(46, 45, 45, 0.1);
+  }
