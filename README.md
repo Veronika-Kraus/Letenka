@@ -54,7 +54,7 @@ const flight = {
   quality: 66.66659,
 };
 
-## Zadání
+
 Proveďte následující:
 
 Vypište do stránky název startovní a cílové země.
