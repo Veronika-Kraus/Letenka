@@ -57,17 +57,15 @@ const flight = {
   document.body.innerHTML += '<p><b>Cílová země: </b>' + flight.countryTo.name + '</p>';
   
   
-  const MaxVyska = flight.baglimit.hand_height
-  const MaxSirka = flight.baglimit.hand_width
-  const MaxDelka = flight.baglimit.hand_length
-  const MaxVaha = flight.baglimit.hand_weight
-  
-  document.body.innerHTML += '<p><b>Maximální výška příručního zavazadla: </b>' + MaxVyska + ' cm</p>';
-  document.body.innerHTML += '<p><b>Maximální šířka příručního zavazadla: </b>' + MaxSirka + ' cm</p>';
-  document.body.innerHTML += '<p><b>Maximální délka příručního zavazadla: </b>' + MaxDelka + ' cm</p>';
-  document.body.innerHTML += '<p><b>Maximální váha příručního zavazadla: </b>' + MaxVaha + ' kg</p>';
+  const velikostiZavazadel = flight.baglimit
   
   
-  document.body.innerHTML += '<p><b>Cena za druhé zavazadlo: </b>' + Math.round (flight.bags_price[2]) + ' Kč</p>';
+  document.body.innerHTML += '<p><b>Maximální výška příručního zavazadla: </b>' + velikostiZavazadel.hand_height + ' cm</p>';
+  document.body.innerHTML += '<p><b>Maximální šířka příručního zavazadla: </b>' + velikostiZavazadel.hand_width + ' cm</p>';
+  document.body.innerHTML += '<p><b>Maximální délka příručního zavazadla: </b>' + velikostiZavazadel.hand_length + ' cm</p>';
+  document.body.innerHTML += '<p><b>Maximální váha příručního zavazadla: </b>' + velikostiZavazadel.hand_weight + ' kg</p>';
+  
+  
+  document.body.innerHTML += '<p><b>Cena za druhé zavazadlo: </b>' + Math.ceil (flight.bags_price[2]) + ' Kč</p>';
   
   
