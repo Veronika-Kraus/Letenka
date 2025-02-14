@@ -1,5 +1,6 @@
-* const flight = {
-* id: '145c01af48dd00002715248e_0',
+///Java Skript
+const flight = {
+  id: '145c01af48dd00002715248e_0',
   dTimeUTC: '01/26/2021 @ 1:25pm (UTC)',
   aTimeUTC: '01/26/2021 @ 3:45pm (UTC)',
   duration: {
@@ -50,6 +51,7 @@
   },
   quality: 66.66659,
 };
+///
 Proveďte následující:
 
 Vypište do stránky název startovní a cílové země.
